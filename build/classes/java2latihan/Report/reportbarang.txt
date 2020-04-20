@@ -1,0 +1,43 @@
+
+  April 20,
+
+                    LAPORAN STOK BARANG
+
+      Kode    Nama Bara     Harga      Jumlah       Subt
+
+  K0002       Pensil       2500        7            17500
+
+  K0003       Buku Tulis   2000        2            4000
+
+                                       Grand Tot    21500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

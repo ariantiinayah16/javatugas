@@ -93,8 +93,9 @@ public class FrameBarang extends javax.swing.JFrame {
                         }
                     }
                 }});
+    }
     
-}
+
 
 
     /**
@@ -324,7 +325,7 @@ public class FrameBarang extends javax.swing.JFrame {
                             .addComponent(btnubah)
                             .addComponent(btnhapus)))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -445,7 +446,7 @@ public class FrameBarang extends javax.swing.JFrame {
             stat=con.createStatement();
             stat.executeUpdate(sql);
             
-            JOptionPane.showMessageDialog(null,"Dat Berhasil Dihapus");
+            JOptionPane.showMessageDialog(null,"Data Berhasil Dihapus");
             awal();
             view_data();
         }
